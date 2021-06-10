@@ -27,7 +27,7 @@ while True:
 
     value = float(line)
 
-    if (value < 0.40):
+    if (value < 10):
 
         api.update_status(status="".format(value))
     else:
